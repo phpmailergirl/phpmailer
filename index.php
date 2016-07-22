@@ -1,9 +1,9 @@
 <?php
-$to = "somebody@example.com";
+$to = "mss619@nyu.edu";
 $subject = "My subject";
 $txt = "Hello world!";
-$headers = "From: webmaster@example.com" . "\r\n" .
-"CC: somebodyelse@example.com";
+$headers = "From: mss619@nyu.edu" . "\r\n" .
+;
 
 mail($to,$subject,$txt,$headers);
 ?>
