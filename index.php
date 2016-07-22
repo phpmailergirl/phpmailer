@@ -1,7 +1,7 @@
 <?php
 $to = "mss619@nyu.edu";
 $subject = "My subject";
-$txt = "Hello world!";
+$txt = "Hello world! <a href="apple.com">link text</a>";
 $headers = "From: mss619@nyu.edu" . "\r\n" .
 ;
 
